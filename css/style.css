@@ -68,14 +68,14 @@ header {
 }
 header .container {
   padding-top: 100px;
-  padding-bottom: 0px;
+  padding-bottom: 100px;
 }
 header img {
   display: block;
   margin: 0 auto 20px;
 }
 header .intro-text {
-  padding: 0 10px;
+  padding: 30px 10px 0 10px;
 }
 header .intro-text .name {
   display: block;
@@ -91,7 +91,7 @@ header .intro-text .skills {
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;
-    padding-bottom: 0px;
+    padding-bottom: 100px;
     /* 100 */
   
   }
@@ -157,9 +157,13 @@ section.success p {
   text-align: center;
   padding: 0 10px;
 }
-section.logo {
+section.accent {
   background: #b7d682;
   color: white;
+}
+section.accent img {
+  margin-left: auto;
+  margin-right: auto;
 }
 section.video iframe {
   width: 100%;
@@ -498,6 +502,15 @@ body {
   color: #4f6923;
   border: 1px solid #4f6923;
 }
+.btn-med {
+  background: #b7d682;
+  color: #4f6923;
+  border: 1px solid #4f6923;
+}
+.btn-med:hover {
+  color: #4f6923;
+  border: 1px solid #4f6923;
+}
 .btn-light:focus {
   color: #4f6923;
   border: 1px solid #4f6923;
@@ -505,7 +518,7 @@ body {
 /*** Map, using MapBox ***/
 #map {
   margin: 15px;
-  height: 400px;
+  height: 450px;
 }
 #map-legend {
   position: relative;
@@ -542,4 +555,14 @@ body {
 .main-video {
   width: 100%;
   float: left;
+}
+.matera {
+  width: 80%;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+.logo {
+  width: 50%;
 }

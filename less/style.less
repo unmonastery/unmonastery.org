@@ -77,14 +77,14 @@ header {
 	background: @brand-inverse;
 	.container {
 		padding-top: 100px;
-		padding-bottom: 0px;
+		padding-bottom: 100px;
 	}
 	img {
 		display: block;
 		margin: 0 auto 20px;
 	}
 	.intro-text {
-		padding: 0 10px;
+		padding: 30px 10px 0 10px;
 		.name {
 			display: block;
 			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -103,7 +103,7 @@ header {
 	header {
 		.container {
 			padding-top: 200px;
-			padding-bottom: 0px; /* 100 */
+			padding-bottom: 100px; /* 100 */
 		}
 		.intro-text {
 			.name {
@@ -178,9 +178,13 @@ section.success {
 	}
 }
 
-section.logo {
+section.accent {
 	background: @brand-lighter;
 	color: white;
+	img {
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 section.video {
@@ -569,6 +573,17 @@ body {
 	border: 1px solid @brand-hover;
 }
 
+.btn-med {
+	background: @brand-lighter;
+	color: @brand-hover;
+	border: 1px solid @brand-hover	;
+}
+
+.btn-med:hover {
+	color: @brand-hover;
+	border: 1px solid @brand-hover;
+}
+
 .btn-light:focus {
 	color: @brand-hover;
 	border: 1px solid @brand-hover;
@@ -578,7 +593,7 @@ body {
 
 #map {
 	margin: 15px;
-	height: 400px;
+	height: 450px;
 }
 
 #map-legend {
@@ -623,4 +638,17 @@ body {
 .main-video {
 	width: 100%;
 	float: left;
+}
+
+
+.matera {
+	width: 80%;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.logo {
+	width: 50%;
 }
