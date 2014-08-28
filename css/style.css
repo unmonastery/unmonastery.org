@@ -157,6 +157,10 @@ section.success p {
   text-align: center;
   padding: 0 10px;
 }
+section.logo {
+  background: #b7d682;
+  color: white;
+}
 section.video iframe {
   width: 100%;
   margin-left: auto;
