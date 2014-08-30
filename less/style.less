@@ -187,12 +187,27 @@ section.accent {
 	}
 }
 
-section.video {
+section.outreach {
+	.outreach-panels {
+		margin: 0 50px;
+	}
+	.col-sm-4 {
+		padding: 0 10px;
+	}
 	iframe {
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 		padding-bottom: 50px;
+	}
+	p {
+		padding: 0 0 10px 0;
+	}
+	.btn {
+		margin-top: 20px;
+	}
+	.row {
+		top: 20px;
 	}
 }
 
@@ -307,7 +322,7 @@ button {
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
-    padding-bottom: 0.5em;
+    padding-bottom: 0; /*.25em; .5 */
     border-bottom: 1px solid @gray-lighter;
     input,
     textarea {
@@ -317,7 +332,7 @@ button {
 	    padding-left: 0;
 	    border: none;
 	    border-radius: 0;
-	    font-size: 1.5em;
+	    font-size: 14px; /*1.5em;*/
 	    background: none;
 	    box-shadow: none !important;
 	    resize: none;
