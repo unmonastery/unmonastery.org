@@ -220,6 +220,10 @@ section.outreach .row {
   margin: 0 0 15px;
   right: 0;
 }
+#portfolio .portfolio-item p {
+  font-size: 16px;
+  margin-top: 20px;
+}
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
@@ -257,6 +261,55 @@ section.outreach .row {
   margin: 0;
 }
 #portfolio * {
+  z-index: 2;
+}
+#in-a-box {
+  text-align: center;
+}
+#in-a-box span {
+  font-size: 16px;
+}
+#in-a-box .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#in-a-box .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#in-a-box .portfolio-item .portfolio-link .caption {
+  background: rgba(137, 182, 60, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#in-a-box .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+#in-a-box .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#in-a-box .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#in-a-box .portfolio-item .portfolio-link .caption .caption-content h3,
+#in-a-box .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#in-a-box * {
   z-index: 2;
 }
 #primary {
