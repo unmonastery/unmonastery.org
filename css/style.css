@@ -292,11 +292,14 @@ button {
   padding-bottom: 0;
   /*.25em; .5 */
 
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #89b63c;
+  /* gray-lighter; */
+
 }
 .floating-label-form-group input,
 .floating-label-form-group textarea {
   z-index: 1;
+  color: #ffffff;
   position: relative;
   padding-right: 0;
   padding-left: 0;
@@ -320,6 +323,7 @@ button {
   vertical-align: middle;
   vertical-align: baseline;
   opacity: 0;
+  color: #4f6923;
   -webkit-transition: top 0.3s ease,opacity 0.3s ease;
   -moz-transition: top 0.3s ease,opacity 0.3s ease;
   -ms-transition: top 0.3s ease,opacity 0.3s ease;
@@ -327,17 +331,20 @@ button {
 }
 .floating-label-form-group::not(:first-child) {
   padding-left: 14px;
-  border-left: 1px solid #eeeeee;
+  border-left: 1px solid #4f6923;
+  /* @gray-lighter */
+
 }
 .floating-label-form-group-with-value label {
   top: 0;
   opacity: 1;
+  color: #4f6923;
 }
 .floating-label-form-group-with-focus label {
-  color: #89b63c;
+  color: #4f6923;
 }
 form .row:first-child .floating-label-form-group {
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #89b63c;
 }
 footer {
   color: white;

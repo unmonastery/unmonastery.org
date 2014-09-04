@@ -325,10 +325,11 @@ button {
     position: relative;
     margin-bottom: 0;
     padding-bottom: 0; /*.25em; .5 */
-    border-bottom: 1px solid @gray-lighter;
+    border-bottom: 1px solid @brand-primary; /* gray-lighter; */
     input,
     textarea {
 	    z-index: 1;
+	    color: @brand-inverse;
 	    position: relative;
 	    padding-right: 0;
 	    padding-left: 0;
@@ -350,6 +351,7 @@ button {
 	    vertical-align: middle;
 	    vertical-align: baseline;
 	    opacity: 0;
+	    color: @brand-hover;
 	    -webkit-transition: top 0.3s ease,opacity 0.3s ease;
 	    -moz-transition: top 0.3s ease,opacity 0.3s ease;
 	    -ms-transition: top 0.3s ease,opacity 0.3s ease;
@@ -357,7 +359,7 @@ button {
     }
     &::not(:first-child) {
 	    padding-left: 14px;
-	    border-left: 1px solid @gray-lighter;
+	    border-left: 1px solid @brand-hover; /* @gray-lighter */
     }
 }
 
@@ -365,17 +367,18 @@ button {
 	label {
 	    top: 0;
 	    opacity: 1;
+	    color: @brand-hover;
 	}
 }
 
 .floating-label-form-group-with-focus {
 	label {
-	    color: @brand-success;
+	    color: @brand-hover;
 	}
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid @gray-lighter;
+    border-top: 1px solid @brand-primary;
 }
 
 footer {
@@ -657,7 +660,6 @@ body {
 	float: left;
 }
 
-
 .matera {
 	width: 80%;
 	-moz-border-radius: 10px;
@@ -672,10 +674,6 @@ body {
 
 .row-padded {
 	margin-top: 15px;
-}
-
-.darker {
-	background: @brand-lighter;
 }
 
 /** Contact HR **/
