@@ -621,6 +621,9 @@ body {
 .row-padded {
   margin-top: 15px;
 }
+.row-x-padded {
+  margin-top: 40px;
+}
 /** Contact HR **/
 hr.contact-light,
 hr.contact-primary {
