@@ -125,6 +125,7 @@ header {
         transition: padding 0.3s;
 	    .navbar-brand {
 	        font-size: 2em;
+	        font-weight: 700;
 	        -webkit-transition: all 0.3s;
 	        -moz-transition: all 0.3s;
 	        transition: all 0.3s;
@@ -140,7 +141,7 @@ header {
 
 .navbar {
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 700;
+	font-weight: 500;
 	a:focus {
 		outline: none;
 	}
@@ -151,6 +152,14 @@ header {
 				outline: none;
 			}
 		}
+	}
+	img {
+		max-width: 50px;
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-right: 5px;
+		padding: 0;
+		display: inline;
 	}
 }
 
@@ -657,6 +666,14 @@ body {
 	color: @brand-third;
 }
 
+.color-darker {
+	color: @brand-hover;
+}
+
+.color-lighter {
+	color: @brand-lighter;
+}
+
 .main-video {
 	width: 100%;
 	float: left;
@@ -800,3 +817,4 @@ hr.video-primary:after {
     background-color: @brand-medium;
     color: @brand-primary;
 }
+	

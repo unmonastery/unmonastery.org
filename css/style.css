@@ -114,6 +114,7 @@ header .intro-text .skills {
   }
   .navbar-fixed-top .navbar-brand {
     font-size: 2em;
+    font-weight: 700;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -127,7 +128,7 @@ header .intro-text .skills {
 }
 .navbar {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 .navbar a:focus {
   outline: none;
@@ -137,6 +138,14 @@ header .intro-text .skills {
 }
 .navbar .navbar-nav li a:focus {
   outline: none;
+}
+.navbar img {
+  max-width: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5px;
+  padding: 0;
+  display: inline;
 }
 .navbar-default,
 .navbar-inverse {
@@ -585,6 +594,12 @@ body {
 }
 .color-third {
   color: #2aace2;
+}
+.color-darker {
+  color: #4f6923;
+}
+.color-lighter {
+  color: #b7d682;
 }
 .main-video {
   width: 100%;
