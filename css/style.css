@@ -592,6 +592,7 @@ body {
 .row-padded {
   margin-top: 15px;
 }
+/** Contact HR **/
 hr.contact-light,
 hr.contact-primary {
   padding: 0;
@@ -608,12 +609,8 @@ hr.contact-primary:after {
   position: relative;
   top: -0.8em;
   font-size: 2em;
-  padding: 0.25em 0.25em;
-  content: "\f064";
-}
-hr.contact-light:after .star,
-hr.contact-primary:after .star {
-  content: "\f005" er;
+  padding: 0em 0.25em;
+  content: "\f0e0";
 }
 hr.contact-light {
   border-color: white;
@@ -626,6 +623,74 @@ hr.contact-primary {
   border-color: #89b63c;
 }
 hr.contact-primary:after {
+  background-color: #a1c95c;
+  color: #89b63c;
+}
+/** Updates HR **/
+hr.updates-light,
+hr.updates-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+hr.updates-light:after,
+hr.updates-primary:after {
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0em 0.25em;
+  content: "\f09e";
+}
+hr.updates-light {
+  border-color: white;
+}
+hr.updates-light:after {
+  background-color: #89b63c;
+  color: white;
+}
+hr.updates-primary {
+  border-color: #89b63c;
+}
+hr.updates-primary:after {
+  background-color: #a1c95c;
+  color: #89b63c;
+}
+/** Video HR **/
+hr.video-light,
+hr.video-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+hr.video-light:after,
+hr.video-primary:after {
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0em 0.25em;
+  content: "\f03d";
+}
+hr.video-light {
+  border-color: white;
+}
+hr.video-light:after {
+  background-color: #89b63c;
+  color: white;
+}
+hr.video-primary {
+  border-color: #89b63c;
+}
+hr.video-primary:after {
   background-color: #a1c95c;
   color: #89b63c;
 }
