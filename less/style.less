@@ -77,14 +77,14 @@ header {
 	background: @brand-inverse;
 	.container {
 		padding-top: 100px;
-		padding-bottom: 0px;
+		padding-bottom: 100px;
 	}
 	img {
 		display: block;
 		margin: 0 auto 20px;
 	}
 	.intro-text {
-		padding: 0 10px;
+		padding: 30px 10px 0 10px;
 		.name {
 			display: block;
 			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -104,6 +104,7 @@ header {
 		.container {
 			padding-top: 200px;
 			padding-bottom: 0px; /* 100 */
+			padding-bottom: 100px; /* 100 */
 		}
 		.intro-text {
 			.name {
@@ -178,12 +179,38 @@ section.success {
 	}
 }
 
-section.video {
+section.accent {
+	background: @brand-medium;
+	color: white;
+	img {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+section.outreach {
+	background: @brand-medium;
+	color: @brand-hover;
+	.outreach-panels {
+		margin: 0 50px;
+	}
+	.col-sm-4 {
+		padding: 0 10px;
+	}
 	iframe {
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 		padding-bottom: 50px;
+	}
+	p {
+		padding: 0 0 10px 0;
+	}
+	.btn {
+		margin-top: 20px;
+	}
+	.row {
+		top: 20px;
 	}
 }
 
@@ -298,17 +325,18 @@ button {
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid @gray-lighter;
+    padding-bottom: 0; /*.25em; .5 */
+    border-bottom: 1px solid @brand-primary; /* gray-lighter; */
     input,
     textarea {
 	    z-index: 1;
+	    color: @brand-inverse;
 	    position: relative;
 	    padding-right: 0;
 	    padding-left: 0;
 	    border: none;
 	    border-radius: 0;
-	    font-size: 1.5em;
+	    font-size: 14px; /*1.5em;*/
 	    background: none;
 	    box-shadow: none !important;
 	    resize: none;
@@ -324,6 +352,7 @@ button {
 	    vertical-align: middle;
 	    vertical-align: baseline;
 	    opacity: 0;
+	    color: @brand-hover;
 	    -webkit-transition: top 0.3s ease,opacity 0.3s ease;
 	    -moz-transition: top 0.3s ease,opacity 0.3s ease;
 	    -ms-transition: top 0.3s ease,opacity 0.3s ease;
@@ -331,7 +360,7 @@ button {
     }
     &::not(:first-child) {
 	    padding-left: 14px;
-	    border-left: 1px solid @gray-lighter;
+	    border-left: 1px solid @brand-hover; /* @gray-lighter */
     }
 }
 
@@ -339,17 +368,19 @@ button {
 	label {
 	    top: 0;
 	    opacity: 1;
+	    color: @brand-hover;
 	}
 }
 
 .floating-label-form-group-with-focus {
 	label {
 	    color: @brand-success;
+	    color: @brand-hover;
 	}
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid @gray-lighter;
+    border-top: 1px solid @brand-primary;
 }
 
 footer {
@@ -564,6 +595,17 @@ body {
 	border: 1px solid @brand-hover;
 }
 
+.btn-med {
+	background: @brand-lighter;
+	color: @brand-hover;
+	border: 1px solid @brand-hover	;
+}
+
+.btn-med:hover {
+	color: @brand-hover;
+	border: 1px solid @brand-hover;
+}
+
 .btn-light:focus {
 	color: @brand-hover;
 	border: 1px solid @brand-hover;
@@ -573,7 +615,7 @@ body {
 
 #map {
 	margin: 15px;
-	height: 400px;
+	height: 450px;
 }
 
 #map-legend {
@@ -618,4 +660,143 @@ body {
 .main-video {
 	width: 100%;
 	float: left;
+}
+.matera {
+	width: 80%;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.logo {
+	width: 50%;
+}
+
+.row-padded {
+	margin-top: 15px;
+}
+
+/** Contact HR **/
+
+hr.contact-light,
+hr.contact-primary {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+
+hr.contact-light:after,
+hr.contact-primary:after {
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative; 
+    top: -0.8em;  
+    font-size: 2em;
+    padding: 0em 0.25em;
+	content: "\f0e0";
+}
+
+hr.contact-light {
+    border-color: white;
+}
+
+hr.contact-light:after {
+    background-color: @brand-success;
+    color: white;
+}
+
+hr.contact-primary {
+    border-color: @brand-primary;
+}
+
+hr.contact-primary:after {
+    background-color: @brand-medium;
+    color: @brand-primary;
+}
+
+/** Updates HR **/
+
+hr.updates-light,
+hr.updates-primary {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+
+hr.updates-light:after,
+hr.updates-primary:after {
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative; 
+    top: -0.8em;  
+    font-size: 2em;
+    padding: 0em 0.25em;
+	content: "\f09e";
+}
+
+hr.updates-light {
+    border-color: white;
+}
+
+hr.updates-light:after {
+    background-color: @brand-success;
+    color: white;
+}
+
+hr.updates-primary {
+    border-color: @brand-primary;
+}
+
+hr.updates-primary:after {
+    background-color: @brand-medium;
+    color: @brand-primary;
+}
+
+
+/** Video HR **/
+
+hr.video-light,
+hr.video-primary {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+
+hr.video-light:after,
+hr.video-primary:after {
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative; 
+    top: -0.8em;  
+    font-size: 2em;
+    padding: 0em 0.25em;
+	content: "\f03d";
+}
+
+hr.video-light {
+    border-color: white;
+}
+
+hr.video-light:after {
+    background-color: @brand-success;
+    color: white;
+}
+
+hr.video-primary {
+    border-color: @brand-primary;
+}
+
+hr.video-primary:after {
+    background-color: @brand-medium;
+    color: @brand-primary;
 }
