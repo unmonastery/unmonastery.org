@@ -158,12 +158,16 @@ section.success p {
   padding: 0 10px;
 }
 section.accent {
-  background: #b7d682;
+  background: #a1c95c;
   color: white;
 }
 section.accent img {
   margin-left: auto;
   margin-right: auto;
+}
+section.outreach {
+  background: #a1c95c;
+  color: #4f6923;
 }
 section.outreach .outreach-panels {
   margin: 0 50px;
@@ -584,4 +588,44 @@ body {
 }
 .logo {
   width: 50%;
+}
+.row-padded {
+  margin-top: 15px;
+}
+hr.contact-light,
+hr.contact-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+hr.contact-light:after,
+hr.contact-primary:after {
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0.25em 0.25em;
+  content: "\f064";
+}
+hr.contact-light:after .star,
+hr.contact-primary:after .star {
+  content: "\f005" er;
+}
+hr.contact-light {
+  border-color: white;
+}
+hr.contact-light:after {
+  background-color: #89b63c;
+  color: white;
+}
+hr.contact-primary {
+  border-color: #89b63c;
+}
+hr.contact-primary:after {
+  background-color: #a1c95c;
+  color: #89b63c;
 }

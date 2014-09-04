@@ -179,7 +179,7 @@ section.success {
 }
 
 section.accent {
-	background: @brand-lighter;
+	background: @brand-medium;
 	color: white;
 	img {
 		margin-left: auto;
@@ -188,6 +188,8 @@ section.accent {
 }
 
 section.outreach {
+	background: @brand-medium;
+	color: @brand-hover;
 	.outreach-panels {
 		margin: 0 50px;
 	}
@@ -666,4 +668,50 @@ body {
 
 .logo {
 	width: 50%;
+}
+
+.row-padded {
+	margin-top: 15px;
+}
+
+hr.contact-light,
+hr.contact-primary {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+
+hr.contact-light:after,
+hr.contact-primary:after {
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative; 
+    top: -0.8em;  
+    font-size: 2em;
+    padding: 0.25em 0.25em;
+	content: "\f064";
+    .star {
+		content: "\f005"er;
+    }
+}
+
+hr.contact-light {
+    border-color: white;
+}
+
+hr.contact-light:after {
+    background-color: @brand-success;
+    color: white;
+}
+
+hr.contact-primary {
+    border-color: @brand-primary;
+}
+
+hr.contact-primary:after {
+    background-color: @brand-medium;
+    color: @brand-primary;
 }
