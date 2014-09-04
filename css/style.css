@@ -55,7 +55,7 @@ hr.star-primary {
   border-color: #89b63c;
 }
 hr.star-primary:after {
-  background-color: white;
+  background-color: transparent;
   color: #89b63c;
 }
 .img-centered {
@@ -600,6 +600,9 @@ body {
 }
 .color-lighter {
   color: #b7d682;
+}
+.bg-color-lightest {
+  background: #d8e9bc;
 }
 .main-video {
   width: 100%;
