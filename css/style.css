@@ -185,16 +185,20 @@ section.outreach .outreach-panels {
   margin: 0 50px;
 }
 section.outreach .col-sm-4 {
+  float: left;
   padding: 0 10px;
 }
 section.outreach iframe {
-  width: 100%;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 section.outreach p {
   padding: 0 0 10px 0;
+}
+section.outreach i {
+  margin-bottom: 20px;
 }
 section.outreach .btn {
   margin-top: 20px;
