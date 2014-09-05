@@ -169,6 +169,13 @@ section.success p {
   text-align: center;
   padding: 0 10px;
 }
+section.success a {
+  color: #d8e9bc;
+}
+section.success a:hover {
+  color: #4f6923;
+  text-decoration: none;
+}
 section.accent {
   background: #a1c95c;
   color: white;
