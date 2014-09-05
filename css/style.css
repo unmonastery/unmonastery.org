@@ -783,3 +783,6 @@ hr.video-primary:after {
   background-color: #a1c95c;
   color: #89b63c;
 }
+.padded-top {
+  margin-top: 25px;
+}
