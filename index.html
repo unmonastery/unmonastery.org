@@ -342,7 +342,7 @@
                 <div class="row">
                     <div class="footer-col">
                         <h3>Donate</h3>
-                        <p><a href="https://www.paypal.com/uk/cgi-bin/webscr?cmd=_flow&SESSION=zrKQ_o5IzsC9DcAcIih2bH6YpJPjoBmodky6vr0wovqd5_C0uKy583Yo0ne&dispatch=5885d80a13c0db1f8e263663d3faee8dae318ac9ffd6aa6b72a490566890f82e" target="_blank">PayPal</a></p>
+                        <p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CHZEWNY77F6UQ" target="_blank">PayPal</a></p>
                         <p><a href="https://www.amazon.it/wishlist/9O61NKU2KQK8" target="_blank">Amazon Wishlist</a></p>
 						<h3>Transparent Finances</h3>
                         <p><a href="https://drive.google.com/#folders/0B_BTERaT9bWOMG45YzZtUWNmSk0" target="_blank">unMonastery Spending</a></p>						
@@ -569,7 +569,9 @@
 	<!-- MapBox -->
 	<script>
 		L.mapbox.accessToken = 'pk.eyJ1IjoiZ2FtZXJhIiwiYSI6IjNlclVnZDAifQ.a8PjkEfE5i2aOShPawCy1A';
-		var map = L.mapbox.map('map', 'gamera.ja5ijgfc').setView([44.465, 14.238], 4);	
+		var map = L.mapbox.map('map', 'gamera.ja5ijgfc', {
+			zoomControl: false
+		}).setView([44.465, 14.238], 4);	
 	</script>
 
 	<!-- Google Analytics -->
