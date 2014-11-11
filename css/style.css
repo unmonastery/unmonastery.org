@@ -168,11 +168,13 @@ section.success p {
   padding: 0 10px;
 }
 section.success a {
-  color: #d8e9bc;
+  color: white;
+  text-decoration: underline;
 }
 section.success a:hover {
   color: #4f6923;
   text-decoration: none;
+  text-decoration: underline;
 }
 section.accent {
   background: #a1c95c;
@@ -347,6 +349,7 @@ button {
 .btn-outline {
   color: white !important;
   font-size: 20px;
+  text-decoration: none !important;
   border: solid 2px white;
   background: transparent;
   transition: all 0.3s ease-in-out;
@@ -356,12 +359,13 @@ button {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #89b63c;
+  color: #4f6923;
   background: white;
   border: solid 2px white;
 }
 .btn-outline:hover {
   color: #4f6923 !important;
+  text-decoration: none !important;
 }
 .btn-outline-lt {
   color: #89b63c;

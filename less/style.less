@@ -187,11 +187,13 @@ section.success {
 		padding: 0 10px;
 	}
 	a {
-		color: @brand-lightest;
+		color: white;
+		text-decoration: underline;
 	}
 	a:hover {
 		color: @brand-hover;
 		text-decoration: none;
+		text-decoration: underline;
 	}
 }
 
@@ -382,6 +384,7 @@ button {
 .btn-outline {
 	color: white !important;
 	font-size: 20px;
+	text-decoration: none !important;
 	border: solid 2px white;
 	background: transparent;
 	transition: all 0.3s ease-in-out;
@@ -390,7 +393,7 @@ button {
 	&:focus,
 	&:active,
 	&.active {
-		color: @brand-success;
+		color: @brand-hover;
 		background: white;
 		border: solid 2px white;
 	}
@@ -398,6 +401,7 @@ button {
 
 .btn-outline:hover {
 	color: @brand-hover !important;
+	text-decoration: none !important;
 }
 
 .btn-outline-lt {
