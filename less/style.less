@@ -380,7 +380,7 @@ button {
 }
 
 .btn-outline {
-	color: white;
+	color: white !important;
 	font-size: 20px;
 	border: solid 2px white;
 	background: transparent;
@@ -395,6 +395,28 @@ button {
 		border: solid 2px white;
 	}
 }
+
+.btn-outline:hover {
+	color: @brand-hover !important;
+}
+
+.btn-outline-lt {
+	color: @brand-primary;
+	font-size: 20px;
+	border: solid 2px @brand-primary;
+	background: transparent;
+	transition: all 0.3s ease-in-out;
+	margin-top: 25px;
+	&:hover,
+	&:focus,
+	&:active,
+	&.active {
+		color: white;
+		background: @brand-primary;
+		border: solid 2px @brand-primary;
+	}
+}
+
 
 .floating-label-form-group {
     position: relative;

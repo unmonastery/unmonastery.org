@@ -93,10 +93,8 @@ header .intro-text .skills {
     padding-top: 50px;
     padding-bottom: 0px;
     /* 100 */
-  
     padding-bottom: 100px;
     /* 100 */
-  
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -347,7 +345,7 @@ button {
   }
 }
 .btn-outline {
-  color: white;
+  color: white !important;
   font-size: 20px;
   border: solid 2px white;
   background: transparent;
@@ -362,15 +360,32 @@ button {
   background: white;
   border: solid 2px white;
 }
+.btn-outline:hover {
+  color: #4f6923 !important;
+}
+.btn-outline-lt {
+  color: #89b63c;
+  font-size: 20px;
+  border: solid 2px #89b63c;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 25px;
+}
+.btn-outline-lt:hover,
+.btn-outline-lt:focus,
+.btn-outline-lt:active,
+.btn-outline-lt.active {
+  color: white;
+  background: #89b63c;
+  border: solid 2px #89b63c;
+}
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0;
   /*.25em; .5 */
-
   border-bottom: 1px solid #89b63c;
   /* gray-lighter; */
-
 }
 .floating-label-form-group input,
 .floating-label-form-group textarea {
@@ -383,7 +398,6 @@ button {
   border-radius: 0;
   font-size: 14px;
   /*1.5em;*/
-
   background: none;
   box-shadow: none !important;
   resize: none;
@@ -409,7 +423,6 @@ button {
   padding-left: 14px;
   border-left: 1px solid #4f6923;
   /* @gray-lighter */
-
 }
 .floating-label-form-group-with-value label {
   top: 0;
@@ -513,10 +526,8 @@ footer .footer-below {
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
-
   -webkit-transform: rotate(45deg);
   /* Safari and Chrome */
-
   z-index: 1051;
 }
 .portfolio-modal .close-modal .lr .rl {
@@ -526,10 +537,8 @@ footer .footer-below {
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
-
   -webkit-transform: rotate(90deg);
   /* Safari and Chrome */
-
   z-index: 1052;
 }
 /** BOOTSTRAP MODS **/
