@@ -806,3 +806,8 @@ hr.video-primary:after {
 .padded-top {
   margin-top: 25px;
 }
+
+
+#transmediale h1 {
+  text-transform: none;
+}
