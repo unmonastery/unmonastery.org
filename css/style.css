@@ -806,8 +806,29 @@ hr.video-primary:after {
 .padded-top {
   margin-top: 25px;
 }
-
-
 #transmediale h1 {
   text-transform: none;
+}
+#transmediale h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-center: center;
+}
+.return {
+  position: absolute;
+  bottom: 20px;
+}
+.return a {
+  color: #89b63c;
+  text-decoration: underline;
+}
+#summit {
+  width: 100%;
+}
+#schedule {
+  background-color: #d8e9bc;
+  color: #4f6923;
 }
