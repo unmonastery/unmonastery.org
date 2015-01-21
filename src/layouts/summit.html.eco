@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+		 More info: h5bp.com/i/378 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<!-- Our site title and description -->
+	<title><%= @getPreparedTitle() %></title>
+	<meta name="description" content="<%= @getPreparedDescription() %>" />
+	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+	<meta name="author" content="<%= @site.author or '' %>" />
+
+	<!-- Output DocPad produced meta elements -->
+	<%- @getBlock('meta').toHTML() %>
+
+	<!-- Mobile viewport optimized: h5bp.com/viewport -->
+	<meta name="viewport" content="width=device-width" />
+
+	<!-- Icons -->
+		<link rel="shortcut icon" href="images/favicon_16.png">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icons/apple-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icons/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="images/icons/apple-touch-icon-57-precomposed.png">
+
+	<!-- Shims: IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Styles -->
+	<%- @getBlock('styles').add(@site.styles).toHTML() %>
+</head>
+<body id="page-top" class="index summit">
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">
+					#unMonSummit
+				</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right list-inline">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#apartment">Apartment</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#programme">Programme</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#participants">Participants</a>
+                    </li>
+                    <li>
+						<a href="//unmonastery.org" target="_blank" class="nav-social"><i class="fa fa-1x fa-home"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+	<header>
+		<img src="/images/the_summit.jpg" alt="The Global unMonastery Summit" id="summit">
+	</header>
+
+		<!-- Content -->
+		<div id="content" class="content container summit-text">
+			<%- @content %>
+		</div>
+
+		<!-- Footer -->
+	    <footer class="text-center">
+	        <div class="footer-above">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="footer-col">
+	                        <h5>Donate &nbsp;&nbsp;<a href="//www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CHZEWNY77F6UQ" target="_blank">PayPal</a>&nbsp;&nbsp; <a href="//www.amazon.it/wishlist/9O61NKU2KQK8" target="_blank">Amazon Wishlist</a>&nbsp;&nbsp;&nbsp; Open Finances&nbsp;&nbsp; <a href="//drive.google.com/#folders/0B_BTERaT9bWOMG45YzZtUWNmSk0" target="_blank">unMonastery Spending</a>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="footer-below">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-lg-12">
+	                        Creative Commons Zero v1.0
+	                        <br><a href="https://github.com/unmonastery/unmonastery.org" target="blank">Fork on Github</a>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+		</footer>
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-48906022-3', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+	<link href="/styles/calendar.css" type="text/css">
+
+	<!-- Scripts -->
+	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+</body>
+</html>

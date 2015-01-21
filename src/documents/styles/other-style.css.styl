@@ -1,0 +1,51 @@
+@import 'nib'
+
+main-color = #89b63c
+
+a, alink
+	cursor pointer
+
+body
+	padding-top 60px
+	font-family "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif
+	text-align center
+	color main-color
+
+h1, h2, h3, h4, h5, h6
+	font-family "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif
+	color main-color
+	text-transform uppercase
+
+
+table
+	tfoot, tbody
+		th
+			border-top 1px solid #DDD
+
+.container
+	padding-left 0
+	padding-right 0
+	width 80%
+
+#matera
+	img
+		width 90%
+
+
+hr.star-primary
+	background main-color
+	color white
+    padding 0
+    border none
+    border-top solid 5px
+    text-align center
+    max-width 250px
+    margin 25px auto 30px
+	&:after
+		content url('/images/logo_hr.png')
+		font-family FontAwesome
+		display inline-block
+		position relative 
+		top -0.8em  
+		font-size 2em
+		padding 0.25em 0.25em
