@@ -10,9 +10,9 @@ The main website for unMonastery.
 
 1. Clone the project and run the server
 
-	``` bash
-	git clone git://github.com/unmonastery/unmonastery.org
-	cd unmonastery.org
+	cd [your-directory]
+	docpad run
+	git clone git://github.com/unmonastery/unmonastery.org .
 	npm install
 	docpad install markd
 	docpad install eco
