@@ -87,7 +87,7 @@ How can we re-appropriate existing infrastructure, services and institutions to 
 -------------------------
 
 ### #temporarycustodians: A proposition for ecological collections management ###
-#### Facilitators: Maurice Carlin, Helen Kaplinsky ####
+#### Facilitators: Maurice Carlin, Helen Kaplinsky, Susanna Davies Crook, Erica Scourti, Christopher Kulendran Thomas, Annika Kuhlmann, and Elvia Wilk ####
 #### Time: Thursday, 29/1, 1500h-1800h ####
 
 &#35;temporarycustodians, is an R&D project initiated by curator Helen Kaplinsky and artist Maurice Carlin, asking how the shift towards the sharing economy, collaborative commons and peer2peer distribution might constitute an alternative to historical modes of public and private collecting. The term ‘custodian’ evokes responsibility, guardianship, and care taking; ‘temporary,’ the ideal of a TAZ (Temporary Autonomous Zone) and a property function of ‘holding without owning.’
