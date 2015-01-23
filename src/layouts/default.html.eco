@@ -54,16 +54,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right list-inline">
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="/"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#story">Story</a>
+                        <a href="/#story">Story</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#spaces">Spaces</a>
+                        <a href="/projects">Projects</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#the-unmonastery-bios">&beta;&#x3AF;o&#962;</a>
+                        <a href="/bios">BIOS</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/participate">Participate</a>
                     </li>
                     <li>
 						<a href="//twitter.com/unmonastery" target="_blank" class="nav-social"><i class="fa fa-fw fa-twitter"></i></a>
@@ -115,6 +118,7 @@
 	        </div>
 		</footer>
 
+
 	<!-- Google Analytics -->
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -125,6 +129,9 @@
 		ga('create', 'UA-48906022-3', 'auto');
 		ga('send', 'pageview');
 	</script>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
 
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>

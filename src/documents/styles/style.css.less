@@ -125,7 +125,7 @@ header {
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
 	    .navbar-brand {
-	        font-size: 2em;
+	        font-size: 1.5em;
 	        font-weight: 700;
 	        -webkit-transition: all 0.3s;
 	        -moz-transition: all 0.3s;
@@ -649,6 +649,10 @@ body {
 	color: @brand-primary;
 }
 
+.nav > li > a {
+	padding: 20px 10px;
+}
+
 .navbar-default .navbar-nav > li > a {
 	color: @brand-primary;	
 }
@@ -672,6 +676,10 @@ body {
 .nav-social {
 	padding-left: 5px !important;
 	padding-right: 0 !important;
+}
+
+.navbar img {
+	max-height: 30px;
 }
 
 /*** MODS: Buttons ***/
@@ -768,18 +776,12 @@ body {
 
 .bg-color-lightest {
 	background: @brand-lightest;
+	color: @brand-primary;
 }
 
-.main-video {
-	width: 100%;
-	float: left;
-}
-.matera {
-	width: 80%;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-khtml-border-radius: 10px;
-	border-radius: 10px;
+.bg-color-medium {
+	background: @brand-medium;
+	color: @brand-dark;
 }
 
 .logo {
@@ -941,22 +943,14 @@ hr.video-primary:after {
   text-decoration: underline;
 }
 
-#summit {
-	width: 100%;
-}
-
-#schedule {
-    background-color: @brand-lightest;
-    color: @brand-hover;
-}
-
+/* For main page text */
 #landing {
 	text-align: center;
 }
 
-p {
-	font-size: 20px;
-}
+/***********************
+SUMMIT
+***********************/
 
 .anchor {
 	display: block;
@@ -972,62 +966,58 @@ p {
 	visibility: hidden;
 }
 
-.navbar img {
-	max-height: 30px;
+
+/***********************
+SUMMIT
+***********************/
+
+/* Img width */
+
+#summit {
+	width: 100%;
 }
 
-.summit header img {
-	margin-top: 0;
-	padding-top: 0;
-	top: 0;
-}
-
-.summit h1, h2, h3, h4 {
-	text-align: center;
-}
-.summit h4 {
-	text-transform: none;
-	color: @brand-dark;
-}
-
-.summit .summit-text {
-	padding: 100px 0;
-}
-
-.summit hr {
-	margin-bottom: 50px;
-}
-
-.summit .star-primary {
-	margin-bottom: 30px;
-}
-
-.summit p {
-	font-size:18px;
-	padding-top: 20px;
-}
-.summit blockquote {
-	margin-top: 25px;
-}
-
-.summit blockquote p {
-	padding-top: 0;
-	font-size: 16px;
-}
-
-.summit .navbar-brand {
-	font-size: 24px;
-}
-
-.view-container-border {
-	background-color: @brand-primary !important;
-}
-
-.calendar {
-	margin: 25px 0;
-}
-
-.summit-text a {
-	text-decoration: underline;
-	color: @brand-primary;
+.summit {
+	header img {
+		margin-top: 0;
+		padding-top: 0;
+		top: 0;
+	}
+	h1, h2, h3, h4 {
+		text-align: center;
+	}
+	h4 {
+		text-transform: none;
+		color: @brand-dark;		
+	}
+	hr {
+		margin-bottom: 50px;
+	}
+	p {
+		font-size:18px;
+		padding-top: 20px;
+	}
+	blockquote {
+		margin-top: 25px;
+		p {
+			padding-top: 0;
+			font-size: 16px;		
+		}
+	}
+	.summit-text {
+		padding: 100px 0;
+		a {
+			text-decoration: underline;
+			color: @brand-primary;
+		}
+		.navbar-brand {
+			font-size: 24px;
+		}
+	}
+	.star-primary {
+		margin-bottom: 30px;
+	}
+	.calendar {
+		margin: 25px 0;
+	}
 }

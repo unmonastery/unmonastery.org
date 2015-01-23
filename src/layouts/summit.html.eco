@@ -65,7 +65,7 @@
                         <a href="#participants">Participants</a>
                     </li>
                     <li>
-						<a href="//unmonastery.org" target="_blank" class="nav-social"><i class="fa fa-1x fa-home"></i></a>
+						<a href="/" class="nav-social"><i class="fa fa-1x fa-home"></i></a>
                     </li>
                 </ul>
             </div>
