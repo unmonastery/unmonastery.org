@@ -255,3 +255,11 @@ is a producer specialising in interdisciplinary and practice-led research with a
 #### unMonasterians and Friends ####
 
 include Bembo Davies, Ben Vickers, elf Pavlik, Gaia Marcus, Ilaria d'Auria, James Lewis, Juliana Maria van Hemelryck, Katalin Hausel, Kei Kreutler, Lauren Lapidge, Lucia Caistor, Luisa Lapacciana, Maria Byck, Muhammad Khaleel Jaffer, Nadia EL-Imam, Ola Moller, Arthur Doohan, and Elina Makri.
+
+--------------------------
+
+#### Supporters ####
+<div class="supporters">
+	<img src="/images/logo_ACE.png">
+	<img src="/images/logo_BC.png">
+</div>
