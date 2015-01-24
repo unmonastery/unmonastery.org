@@ -1,5 +1,6 @@
 
 var $projects = $("#projects");
+var $projectGrid = $("#project-grid");
 
 var $counter = 0;
 
@@ -72,14 +73,16 @@ Trello.get("boards/54bfcd2f0c60b21168bb98a2/lists?cards=open&attachment_fields=n
 				});
 			});
 		};
-		var $projectGrid = $("div")
-			.addClass("container")
-			.attr("id","project-grid")
-			.appendTo($projects);
-		var $projectIcon = $("div")
+		$counter = ix + 1;
+		if($counter % 3 == 0) {
+			gridRow = $("<div>")
+				.addClass("row row-padded")
+				.appendTo($projectGrid);
+		}
+		var $projectIcon = $("<div>")
 			.addClass("col-sm-4")
 			.text(list.name)
-			.appendTo($projectGrid);
+		    .appendTo($projectGrid);
 		/*** End of project sections ***/
 	});
 });
