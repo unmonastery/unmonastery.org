@@ -53,8 +53,6 @@ docpadConfig = {
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"
-				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
-				"/scripts/bootstrap-accessibility-min.js"
 				"/scripts/freelancer.js"
 				"/scripts/script.js"
 			]
