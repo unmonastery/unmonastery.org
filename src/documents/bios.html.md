@@ -66,7 +66,7 @@ title: BIOS
 		<div class="modal-body container">
 		    <div class="row">
 		        <div class="col-lg-6 col-lg-offset-1">
-                    <p>To avoid reinventing the wheel and reliving our slowly dawning understandings, we have amassed a document that painstakingly evaluates aspects of our work. The initial unMonastery prototype in Matera has provided abundant raw material. unMoaners are not at all documentation-shy: chat sessions, post-its, a web presence, project proposals and urgent emails have left behind a maze of commentary. The Book of Greater and Lesser Omissions recycles this maze into distilled clarity. Fragments of argument and trampled shards of vision are reassembled into magnificent vessels of wisdom. (Chapter headings are in common with the terminology in the method kit to stimulate ready cross-referencing.)
+                    <p>To avoid reinventing the wheel and reliving our slowly dawning understandings, we have amassed a document that painstakingly evaluates aspects of our work. The initial unMonastery prototype in Matera has provided abundant raw material. unMoaners are not at all documentation-shy: chat sessions, post-its, a web presence, project proposals and urgent emails have left behind a maze of commentary. The Book of Greater and Lesser Omissions recycles this maze into distilled clarity.
                     </p>
 		        </div>
 		        <div class="col-lg-4 bios-stage">

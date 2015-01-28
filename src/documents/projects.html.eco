@@ -3,6 +3,18 @@ layout: 'default'
 title: Projects
 ---
 
+<section id="bios">
+	<div class="container">
+        <div class="col-lg-12">
+            <h2>Projects</h2>
+            <hr class="star-primary">
+            <p>
+            	Text needed.
+            </p>
+        </div>
+    </div>
+</section>
+
 
 <div id="projects">
 </div>
@@ -10,7 +22,12 @@ title: Projects
 <div id="project-grid" class="container">
 </div>
 
+<div id="project-modals">
+
+</div>
+
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="//api.trello.com/1/client.js?key=31eb16d37ff9dea5bf8ec1b33e438a55&token=d46662643c552f32fde430f8f0f7105061ec9d55af458f0afa710e669a2be804"></script>
+	<script src="/scripts/bootstrap-min.js"></script>
 	<script src="/scripts/markdown.js"></script>
 	<script src="/scripts/trello.js"></script>
