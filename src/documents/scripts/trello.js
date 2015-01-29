@@ -118,15 +118,14 @@ Trello.get("boards/54bfcd2f0c60b21168bb98a2/lists?cards=open&attachment_fields=n
 				.appendTo($modalBody);
 
 			var $modalColLeft = $("<div>")
-				.addClass("col-sm-8")
-				.html(markdown.toHTML(cardDescs[$counter]))
+				.addClass("col-sm-12")
 				.appendTo($modalBody);
 
-			var $modalColRight = $("<div>")
-				.addClass("col-sm-4 list-group")
-				.appendTo($modalBody);
 			/*** End of project sections ***/
 
+			var $listGroup = $("<div>")
+				.addClass("list-group")
+				.appendTo($modalColLeft);
 
 			$.each(list.cards, function(ix, card) {
 				$.each(card.labels, function(ix, label) {
@@ -137,7 +136,7 @@ Trello.get("boards/54bfcd2f0c60b21168bb98a2/lists?cards=open&attachment_fields=n
 							.attr("href", $materialURL)
 							.attr("target", "_blank")
 							.text(card.name)
-							.appendTo($modalColRight);
+							.appendTo($listGroup);
 					};
 				});
 				/*if(card.name == "Contact") {
@@ -146,6 +145,11 @@ Trello.get("boards/54bfcd2f0c60b21168bb98a2/lists?cards=open&attachment_fields=n
 						.appendTo($modalColRight);
 				};*/
 			});
+
+			var $modalDescription = $("<div>")
+				.html(markdown.toHTML(cardDescs[$counter]))
+				.appendTo($modalColLeft);
+
 		//}
 	});
 });
