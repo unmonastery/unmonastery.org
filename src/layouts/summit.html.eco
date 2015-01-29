@@ -80,12 +80,16 @@
 
 	<section id="live">
 		<div class="container">
-			<h3>The Summit: LIVE</h3>
+			<h1>The Summit: LIVE</h1>
+			<hr class="star-primary">
 			<p>
-				You can find live updates on the unMonastery Summit, part of transmediale 2015 CAPTURE ALL, below.
+				The Global unMonastery Summit is currently in progress. You can follow live documentation of each session of the Public Programme, part of <em><strong>transmediale 2015: CAPTURE ALL</strong></em>. For an overview of the programme, visit <a href="/transmediale#programme">unmonastery.org/transmediale</a>.
+			</p>
 
-			<h4>The #unMonSummit Hackpad</h4>
-			<p>Scribes will be present at each session of unMonastery <a href="https://unmonastery.hackpad.com/unMonSummit-2cHsfwUVfIi" target="_blank">unMonastery on Hackpad.</a></p>
+			<p>Scribes will be providing written documentation on the <a href="https://unmonastery.hackpad.com/unMonSummit-2cHsfwUVfIi" target="_blank">hackpad.</a></p>
+
+			<p>The Livestream connecting the Apartment to the Foyer is forthcoming.</p>
+
 		</div>
 	</section>
 

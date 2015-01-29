@@ -2,6 +2,23 @@
 layout: 'default'
 title: BIOS
 ---
+
+	<section id="live">
+		<div class="container">
+			<h1>The Summit: LIVE</h1>
+			<hr class="star-primary">
+			<p>
+				The Global unMonastery Summit is currently in progress. You can follow live documentation of each session of the Public Programme, part of <em><strong>transmediale 2015: CAPTURE ALL</strong></em>. For an overview of the programme, visit <a href="/transmediale#programme">unmonastery.org/transmediale</a>.
+			</p>
+
+			<p>Scribes will be providing written documentation on the <a href="https://unmonastery.hackpad.com/unMonSummit-2cHsfwUVfIi" target="_blank">hackpad.</a></p>
+
+			<p>The Livestream connecting the Apartment to the Foyer is forthcoming.</p>
+
+		</div>
+	</section>
+
+
 <section id="bios">
 	<div class="container">
         <div class="col-lg-12">

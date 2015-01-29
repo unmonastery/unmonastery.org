@@ -990,6 +990,7 @@ SUMMIT
 .summit {
 	header img {
 		margin-top: 0;
+		margin-bottom: 0;
 		padding-top: 0;
 		top: 0;
 	}
@@ -1015,6 +1016,7 @@ SUMMIT
 			font-size: 16px;		
 		}
 	}
+	margin-bottom: 0;
 	.summit-text {
 		padding: 100px 0;
 		a {
@@ -1036,7 +1038,21 @@ SUMMIT
 
 #live {
 	background: @brand-lighter;
-	color: @brand-dark;
+	color: @brand-dark !important;
+	p {
+		color: @brand-dark !important;
+		text-align: center;
+		font-size:18px;
+		padding-top: 20px;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		color: @brand-dark !important;
+		text-align: center;
+	}
+	a {
+		color: @brand-dark;
+		text-decoration: underline;
+	}
 }
 
 /***********************
