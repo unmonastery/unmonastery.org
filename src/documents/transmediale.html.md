@@ -3,6 +3,7 @@ layout: 'summit'
 title: 'transmediale'
 ---
 
+unMonastery, a community-based social innovation, addresses the interlinked needs of empty space, unemployment and depleting social services by embedding committed, skilled individuals within localities that could benefit from their presence. unMonastery is a non-profit project that aims to challenge existing dependency chains and economic fictions, developed in collaboration with EdgeRyders, a distributed think-tank wielding collective intelligence.
 
 As part of ***transmediale 2015: CAPTURE ALL***, unMonastery has been invited to initiate a gathering and regrouping of its respective networks, collaborators and allies in the city of Berlin, with a view towards forging new friendships. Following from the first iteration of unMonastery, prototyped in the ancient city of Matera between January and October 2014, ***The Global unMonastery Summit*** will signal a moment of reflection, reexamination and public presentation of its efforts to date. 
 

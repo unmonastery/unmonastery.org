@@ -78,6 +78,17 @@
 		<img src="/images/the_summit.jpg" alt="The Global unMonastery Summit" id="summit">
 	</header>
 
+	<section id="live">
+		<div class="container">
+			<h3>The Summit: LIVE</h3>
+			<p>
+				You can find live updates on the unMonastery Summit, part of transmediale 2015 CAPTURE ALL, below.
+
+			<h4>The #unMonSummit Hackpad</h4>
+			<p>Scribes will be present at each session of unMonastery <a href="https://unmonastery.hackpad.com/unMonSummit-2cHsfwUVfIi" target="_blank">unMonastery on Hackpad.</a></p>
+		</div>
+	</section>
+
 		<!-- Content -->
 		<div id="content" class="content container summit-text">
 			<%- @content %>
