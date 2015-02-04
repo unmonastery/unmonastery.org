@@ -3,21 +3,6 @@ layout: 'default'
 title: BIOS
 ---
 
-	<section id="live">
-		<div class="container">
-			<h1>The Summit: LIVE</h1>
-			<hr class="star-primary">
-			<p>
-				The Global unMonastery Summit is currently in progress. You can follow live documentation of each session of the Public Programme, part of <em><strong>transmediale 2015: CAPTURE ALL</strong></em>. For an overview of the programme, visit <a href="/transmediale#programme">unmonastery.org/transmediale</a>.
-			</p>
-
-			<p>Scribes will be providing written documentation on the <a href="https://unmonastery.hackpad.com/unMonSummit-2cHsfwUVfIi" target="_blank">hackpad.</a></p>
-
-			<p>The Livestream connecting the Apartment to the Foyer is forthcoming.</p>
-
-		</div>
-	</section>
-
 
 <section id="bios">
 	<div class="container">
@@ -89,7 +74,7 @@ title: BIOS
 		        <div class="col-lg-4 bios-stage">
 		        	<h4>Collaborators</h4>
 		        	<p>
-		        		Bembo Davies, Katalin Hausel, Luisa Lapacciana
+		        		Bembo Davies, Katalin Hausel, Luisa Lapacciana, Alberto Cottica
 		        	</p>
 		        	<h4>Development Phase</h4>
 		        	<p>
@@ -177,7 +162,7 @@ title: BIOS
 		        <div class="col-lg-4 bios-stage">
 		        	<h4>Collaborators</h4>
 		        	<p>
-		        		Katalin Hausel, Bembo Davies, Ben Vickers
+		        		Katalin Hausel, Bembo Davies, Ben Vickers, Luisa Lapacciana
 		        	</p>
 		        	<h4>Development Phase</h4>
 		        	<p>
@@ -219,7 +204,7 @@ title: BIOS
 		        <div class="col-lg-4 bios-stage">
 		        	<h4>Collaborators</h4>
 		        	<p>
-		        		Ben Vickers, Ola Moller, Mat Trivett, Kei Kreutler
+		        		Ben Vickers, Ola Moller, Mat Trivett, Kei Kreutler, Katalin Hausel
 		        	</p>
 		        	<h4>Development Phase</h4>
 		        	<p>
