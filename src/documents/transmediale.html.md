@@ -47,7 +47,7 @@ The offline mesh network will be built during the first days of the Global Summi
 
 Located in the foyer of transmediale, our public programme for the Summit seeks to facilitate a space for a broad base of ideas that function as catalysts for the thinking that underpin the development of the unMonastery concept. Workshops, discussions and presentations will serve as a platform for an ecosystem of initiatives, organisations and individuals who share similar objectives and trajectories.
 
-<iframe class="calendar" src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=e8jqlhj55q5nmrordkb2fir9ts%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=Europe%2FBerlin" style=" border-width:0 " width="800" height="400" frameborder="0" scrolling="no"></iframe>
+<iframe class="calendar" src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=e8jqlhj55q5nmrordkb2fir9ts%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=Europe%2FBerlin" style=" border-width:0 " width="800" height="300" frameborder="0" scrolling="no"></iframe>
 
 -------------------------
 <a class="anchor-padding" name="programme" id="programme"></a>
