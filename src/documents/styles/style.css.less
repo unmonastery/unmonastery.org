@@ -1121,30 +1121,55 @@ BIOS
 
 #project-grid {
 	min-height: 1000px;
+	margin-top: 0;
+	margin-bottom: 100px;
 	img {
-		height: 150px;
+		height: 170px;
 		overflow: hidden;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.row {
+		margin: 0 0 60px 0;
+	}
 	.col-sm-4 {
-		padding-top: 20px;
-		padding-bottom: 20px;
+		max-height: 150px;
+		margin: 60px 0;
 		h5 {
 			text-align: center;
 		}
-		padding: 40px 0;
+		img {
+			opacity: .7;
+		}
 	}
-	.thumbnail {
-		width: 250px;
-		border: none;
-	}
+	.col-sm-4:hover {
+		img {
+			opacity: 1;
+		}
+		a {
+			background: @brand-primary;
+			color: @brand-lightest;
+		}
+	}	
 	a {
-		h4 {
-			color: @brand-primary;
+		display: block;
+		position: relative;
+		margin: 15px auto;
+		width: 170px;
+		height: 50px;
+		background: @brand-lightest;
+		text-align: center;
+		white-space: normal;
+		padding: 15px 5px;
+		color: @brand-dark;
+		font-size: 12px;
+		text-align: center;
+		vertical-align: middle;
+		h6 {
 			text-align: center;
 		}
+		bottom: 0px;
 	}
 }
 
@@ -1170,9 +1195,17 @@ BIOS
 	.list-group {
 		float: right;
 		width: 300px;
-		padding: 0 0 15px 15px;
+		margin: 0 0 5px 5px;
 		a {
 			text-decoration: none;
+		}
+		.list-group-item {
+			background: @brand-lightest;
+			color: @brand-dark;
+		}
+		.list-group-item:hover {
+			background: @brand-primary;
+			color: @brand-lightest;
 		}
 	}
 	ul {

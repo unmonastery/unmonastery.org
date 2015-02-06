@@ -74,14 +74,11 @@ Trello.get("boards/54bfcd2f0c60b21168bb98a2/lists?cards=open&attachment_fields=n
 			var $projectCol = $("<div>")
 				.addClass("col-sm-4")
 			    .appendTo($projectGrid);
-			var $projectThumb = $("<div>")
-				.addClass("thumbnail")
-				.appendTo($projectCol);
 			$.each(list.cards, function(ix, card) {
 				if(card.name == "Image") {
 					$('<img>')
 						.attr("src", "/images/projects/thumbnails/"+card.desc)
-						.appendTo($projectThumb);
+						.appendTo($projectCol);
 					images[$counter] = card.desc;
 				}
 				if(card.name == "About") {
@@ -90,11 +87,17 @@ Trello.get("boards/54bfcd2f0c60b21168bb98a2/lists?cards=open&attachment_fields=n
 					cardDescs[$counter] = card.desc;
 				}
 			});
-			var $imgCaption = $("<div>")
-				.addClass("caption")
-				.html("<a href='#"+ list.id +"' data-toggle='modal' data-target='#"+ list.id +"'><h4>"+ list.name +"</h4></a>")
-				.appendTo($projectThumb);
-
+			/*var $imgCaption = $("<button>")
+				.addClass("btn title")
+				.html("<a href='#"+ list.id +"' data-toggle='modal' data-target='#"+ list.id +"'>"+ list.name +"</a>")
+				.appendTo($projectCol);*/
+			var $imgCaption = $("<a>")
+				.addClass("btn title")
+				.attr("href", "#"+ list.id)
+				.attr("data-toggle", "modal")
+				.attr("data-target", "#" + list.id)
+				.text(list.name)
+				.appendTo($projectCol);
 			var $modal = $("<div>")
 				.addClass("modal fade portfolio-modal project-modal")
 				.attr("id", list.id)
