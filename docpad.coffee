@@ -33,7 +33,7 @@ docpadConfig = {
 				"""
 
 			# The website author's name
-			author: "Kei Kreutler"
+			author: "unMonasterians"
 
 			# The website author's email
 			email: "kei@ourmachine.net"
