@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8" />
@@ -14,6 +14,12 @@
 	<meta name="description" content="<%= @getPreparedDescription() %>" />
 	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
 	<meta name="author" content="<%= @site.author or '' %>" />
+
+	<meta property="og:title" content="unMonastery" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="unMonastery is a place-based social innovation aimed at addressing the interlinked needs of empty space, unemployment and depleting social services by embedding committed, skilled individuals within communities that could benefit from their presence." />
+	<meta property="og:url" content="http://unmonastery.org" />
+	<meta property="og:image" content="/images/logo.png" />
 
 	<!-- Output DocPad produced meta elements -->
 	<%- @getBlock('meta').toHTML() %>
@@ -44,7 +50,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">
+                <a class="navbar-brand" href="/">
                 	<img src="/images/logo_sm.png" alt="unMonastery Logo">
 					unMonastery
 				</a>

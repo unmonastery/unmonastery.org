@@ -170,9 +170,13 @@ title: BIOS
 		        	</p>
 		        	<h4>Format</h4>
 		        	<p>
-		        		PDF, web page and distributed as an A2 poster
+		        		Online document and limited print publication
+
 		        	</p>
 		        	<h4>
+		            	<a href="https://docs.google.com/document/d/1wVSJVR9nbLEszx0BdYQDeofQdpHkc9rHmcVmMT_T8hM/edit?usp=sharing" target="_blank">
+		            		<i class="fa fa-file-pdf-o"></i>
+		            	</a>
 		            </h4>
 		        </div>
 		    </div>

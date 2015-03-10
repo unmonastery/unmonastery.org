@@ -33,7 +33,7 @@ docpadConfig = {
 				"""
 
 			# The website author's name
-			author: "Aporia"
+			author: "Kei Kreutler"
 
 			# The website author's email
 			email: "kei@ourmachine.net"
@@ -56,8 +56,6 @@ docpadConfig = {
 				"/scripts/freelancer.js"
 				"/scripts/script.js"
 			]
-
-
 
 		# -----------------------------
 		# Helper Functions

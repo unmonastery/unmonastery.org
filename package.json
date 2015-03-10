@@ -29,14 +29,13 @@
     "npm": "1.2"
   },
   "dependencies": {
-    "docpad": "~6.69.2",
+    "docpad": "~6.73.5",
     "docpad-plugin-cleanurls": "~2.6.2",
     "docpad-plugin-coffeescript": "~2.2.3",
     "docpad-plugin-downloader": "~2.1.4",
     "docpad-plugin-eco": "~2.1.0",
-    "docpad-plugin-ghpages": "~2.4.3",
     "docpad-plugin-less": "~2.4.1",
-    "docpad-plugin-marked": "~2.2.0",
+    "docpad-plugin-marked": "~2.3.0",
     "docpad-plugin-partials": "~2.8.1",
     "docpad-plugin-related": "~2.2.2",
     "docpad-plugin-stylus": "~2.5.0",
