@@ -104,7 +104,12 @@
 	            <div class="container">
 	                <div class="row">
 	                    <div class="footer-col">
-	                        <h5>Donate &nbsp;&nbsp;<a href="//www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CHZEWNY77F6UQ" target="_blank">PayPal</a>&nbsp;&nbsp; <a href="//www.amazon.it/wishlist/9O61NKU2KQK8" target="_blank">Amazon Wishlist</a>&nbsp;&nbsp;&nbsp; Open Finances&nbsp;&nbsp; <a href="//drive.google.com/#folders/0B_BTERaT9bWOMG45YzZtUWNmSk0" target="_blank">unMonastery Spending</a>
+	                        <h5>Donate</h5>
+	                        <a href="//www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CHZEWNY77F6UQ" target="_blank">PayPal</a>
+	                        <br><a href="//www.amazon.it/wishlist/9O61NKU2KQK8" target="_blank">Amazon Wishlist</a>
+	                        <h5>Open Finances</h5>
+	                        	<a href="//drive.google.com/#folders/0B_BTERaT9bWOMG45YzZtUWNmSk0" target="_blank">unMonastery Spending</a>
+
 	                    </div>
 	                </div>
 	            </div>

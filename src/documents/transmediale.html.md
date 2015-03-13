@@ -88,7 +88,7 @@ How can we re-appropriate existing infrastructure, services and institutions to 
 -------------------------
 
 ### #temporarycustodians: A proposition for ecological collections management ###
-#### Facilitators: Maurice Carlin, Helen Kaplinsky, Erica Scourti ####
+#### Facilitators: Maurice Carlin, Helen Kaplinsky, Erica Scourti, Susanna Davies-Crook ####
 #### Time: Thursday, 29/1, 1500h-1800h ####
 
 &#35;temporarycustodians, is an R&D project initiated by curator Helen Kaplinsky and artist Maurice Carlin, asking how the shift towards the sharing economy, collaborative commons and peer2peer distribution might constitute an alternative to historical modes of public and private collecting. The term ‘custodian’ evokes responsibility, guardianship, and care taking; ‘temporary,’ the ideal of a TAZ (Temporary Autonomous Zone) and a property function of ‘holding without owning.’
@@ -214,6 +214,12 @@ At the age of three Jeffrey Andreoni received his first memory. He was being cha
 #### Maurice Carlin ####
 
 is a Manchester-based artist. His work merges performance, place and publishing to produce dialogues between digital and physical experience. His work has been featured in Frieze, The Guardian and Art Monthly. In 2007, he co-founded Islington Mill Art Academy, a peer-led experiment into alternative modes of art education. Recent shows include First...Next...Then...Finally, Castlefield Gallery, Manchester (2013), Blanco Blanco, La Escocesa, Barcelona (2012), Self Publisher and Other Works, Banner Repeater, London (2011), How to Stay Awake, MCP, Antwerp (2011) Other Forms of Life (with Bik van der Pol), AND Festival, various locations (2010). Maurice is Director of Islington Mill, a leading independent UK arts organisation based in Salford, in the NW England. Structured around an organic network of independent artists, Islington Mill runs innovative inter-disciplinary public arts programmes and artist residencies alongside studio spaces and an artists’ B&B.
+
+-------------------------
+
+#### Susanna Davies-Crook ####
+
+works predominantly in performance, workshops, video and text.  She is a graduate of the Royal College of Art and the University of Leeds, and is currently in residence with #temporarycustodians, supported by Islington Mill, Arts Council England, Castlefield New Art Spaces and the University of Salford where she is an associate artist. 
 
 -------------------------
 
