@@ -97,19 +97,38 @@
 		<div id="content" class="content">
 			<%- @content %>
 		</div>
-
+		<div class="faircoin">
+		<h2>Project Donations</h2>
+		<a href="http://fair-coin.org/" target="_blank">
+			<img src="/images/faircoin.png">
+		</a>
+		<script src="https://getfaircoin.net/widget/widget/coin.js"></script>
+		<script>
+		CoinWidgetCom.go({
+			wallet_address: "fJEcZQWjyKkXQ5AfznWouBEkq5jDDEdwH3"
+			, currency: "faircoin"
+			, counter: "count"
+			, alignment: "bl"
+			, qrcode: true
+			, auto_show: false
+			, lbl_button: "Donate Faircoin"
+			, lbl_address: "unMonastery Faircoin Address:"
+			, lbl_count: "donations"
+			, lbl_amount: "FAIR"
+		});
+		</script>
+	</div>
 		<!-- Footer -->
 	    <footer class="text-center">
 	        <div class="footer-above">
 	            <div class="container">
 	                <div class="row">
 	                    <div class="footer-col">
-	                        <h5>Donate</h5>
+	                        <h5>Other ways to donate</h5>
 	                        <a href="//www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CHZEWNY77F6UQ" target="_blank">PayPal</a>
 	                        <br><a href="//www.amazon.it/wishlist/9O61NKU2KQK8" target="_blank">Amazon Wishlist</a>
 	                        <h5>Open Finances</h5>
 	                        	<a href="//drive.google.com/#folders/0B_BTERaT9bWOMG45YzZtUWNmSk0" target="_blank">unMonastery Spending</a>
-
 	                    </div>
 	                </div>
 	            </div>
