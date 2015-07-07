@@ -145,16 +145,14 @@ header {
 	font-weight: 500;
 	font-size: 14px;
 	a:focus {
-		outline: none;
-		background: #89b63c;
+		border: none;
 	}
 	.navbar-nav {
 		letter-spacing: 1px;
 		li {
 			a:focus, a:hover {
-				outline: none;
-				background: #89b63c;
-				color: #FFF;
+				color: @brand-hover;
+				outline: 0;
 			}
 		}
 	}
@@ -603,9 +601,7 @@ footer {
     }
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-	color: #FFF !important;
-}
+
 
 /** BOOTSTRAP MODS **/
 
