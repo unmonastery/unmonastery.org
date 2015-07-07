@@ -143,14 +143,18 @@ header {
 .navbar {
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 500;
+	font-size: 14px;
 	a:focus {
 		outline: none;
+		background: #89b63c;
 	}
 	.navbar-nav {
 		letter-spacing: 1px;
 		li {
-			a:focus {
+			a:focus, a:hover {
 				outline: none;
+				background: #89b63c;
+				color: #FFF;
 			}
 		}
 	}
@@ -597,6 +601,10 @@ footer {
             }
         }
     }
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #FFF !important;
 }
 
 /** BOOTSTRAP MODS **/

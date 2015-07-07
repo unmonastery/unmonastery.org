@@ -56,21 +56,25 @@
 				</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
+<!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right list-inline">
                     <li class="hidden">
                         <a href="/"></a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="/#story">Story</a>
+                    <li>
+                        <a href="//discourse.unmonastery.org" target="_blank">Forum</a>
                     </li>
                     <li class="page-scroll">
                         <a href="/bios">BIOS</a>
                     </li>
                     <li class="page-scroll">
+                        <a href="//athens.unmonastery.org" target="_blank">Athens Lab</a>
+                    </li>
+                    <li class="page-scroll">
                         <a href="/participate">Participate</a>
                     </li>
+
                     <li>
 						<a href="//twitter.com/unmonastery" target="_blank" class="nav-social"><i class="fa fa-fw fa-twitter"></i></a>
                     </li>

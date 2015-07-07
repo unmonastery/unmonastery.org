@@ -18,7 +18,7 @@ var $materialURL;
 
 var $listTitle;
 
-Trello.get("boards/54bfcd2f0c60b21168bb98a2/lists?cards=open&attachment_fields=name,url", function(lists) {
+Trello.get("boards/5584244c0f4867e5cb41ee84/lists?cards=open&attachment_fields=name,url", function(lists) {
 	$.each(lists, function(ix, list) {
 		// Create chapter section 
 	    /*if(ix < 3) {
