@@ -3,7 +3,6 @@ layout: 'participation'
 title: Participate
 ---
 
-<section id="bios">
 	<div class="container">
         <div class="col-lg-12 participate">
         	<img class="thumbnail img-responsive" src="/images/MateraUnMonCover.jpg" style="width: inherit; margin-bottom: 25px;">
