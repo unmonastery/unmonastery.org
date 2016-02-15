@@ -99,7 +99,9 @@
 
 		<!-- Content -->
 		<div id="content" class="content">
+			<section id="bios">
 			<%- @content %>
+			</section>
 		</div>
 
 		<!-- Footer -->
