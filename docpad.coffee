@@ -16,7 +16,6 @@ docpadConfig = {
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.unmonastery.eu'
 			]
 
 			# The default title of our website
@@ -98,6 +97,9 @@ docpadConfig = {
 	# Plugins
 
 	plugins:
+	    ghpages:
+	        deployRemote: 'target'
+	        deployBranch: 'master'
 		downloader:
 			downloads: [
 				{
